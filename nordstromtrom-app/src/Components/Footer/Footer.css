@@ -1,0 +1,78 @@
+#Footer{
+    margin-top:50px;
+    
+}
+
+
+
+.sign {
+margin-left: 45%;
+}
+.sign>input {
+    height:45px;
+    width: 250px;
+}
+.sign>::placeholder{
+    font-size: 20px;
+}
+.sign>button {
+    height:45px;
+    width: 250px;
+    color:white;
+    background-color: #00819D;
+    border: none;
+    margin-left: 10px;
+}
+.sign>button:hover{
+   
+    color:#00819D;
+    background-color:white ;
+    border: 1px solid #00819D;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #828080;
+    line-height:40px;
+    
+}
+ul li a:hover{
+    color: #59b3b9;
+}
+#size{
+    font-size: 17px;
+}
+#apps{
+    font-size:18px;
+    width:130%;
+    /* padding-bottom: */
+}
+#apps:hover{
+    color: #59b3b9;
+    text-decoration:underline;
+}
+
+.social-icons{
+    width:110%;
+}
+#social-fb,#social-tw,#social-gp,#social-em{
+    color: #000;
+    padding:6px;
+    border: 1px solid #000;
+    margin:5px;
+    font-size:23px;
+    border-radius:20px;
+}
+#social-fb:hover{
+    color:rgb(36, 51, 213);
+    border: 1px solid rgb(36, 51, 213);
+}
+#social-tw:hover{
+    color:rgb(76, 203, 232);
+}
+#social-gp:hover{
+    color:red;
+}
+#social-em:hover{
+    color:rgb(36, 51, 213)
+}

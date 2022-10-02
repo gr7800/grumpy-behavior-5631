@@ -1,0 +1,15 @@
+.div__1{
+    height:95vh;
+    border-right: 2px solid rgb(217, 217, 217);
+    width: 18vw;
+    display: grid;
+    margin-left:10px;
+    margin-top: 10px;
+    grid-template-rows:  10vh 10vh 10vh 10vh 10vh 10vh 4vh 10vh 10vh 10vh;
+
+}
+
+.div__1>div:hover{
+    background-color:grey;
+    color: white;
+}

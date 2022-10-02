@@ -1,0 +1,274 @@
+/* mother card>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.mothercard{
+  width: 95%;
+  height:160px;
+  margin: auto;
+  margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.mothercard img{
+  width:100%;
+  height:100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px
+
+}
+
+
+
+/* slidecsss */
+
+.slideshow{
+  width:100%;
+}
+.slideshow>img{
+  width:100%;
+}
+.slideapp {
+  padding: 10px 30px;
+}
+
+
+/* //new flash styles>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.productContainer img{
+  height: 82%;
+  width:100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px
+
+}
+.productContainer{
+  /* border:1px solid rgb(138, 82, 82); */
+  height:19em;
+  width:200px;
+  /* text-align:center; */
+  position: relative;
+  cursor: pointer;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}
+.productContainer p{
+ margin-top:-2.5px;
+  padding-left: 10px;
+}
+
+.Quicklook{
+ 
+  width:100%;
+  height:45px;
+  position: absolute;
+  bottom: 53px;
+
+  margin:auto;
+  display:none;
+  color:teal;
+  background-color:0.1px solid transparent;
+  z-index:-0.8;
+  border:0.7px solid rgb(152, 23, 23);
+  font-size: 18px;
+}
+.productContainer:hover .Quicklook{
+display:block;
+cursor:pointer;
+color:teal;
+
+border:0.4px solid rgb(87, 81, 81);
+}
+.productContainer>.Quicklook:hover{
+  border:2.2px solid teal;
+  /* background-color:green; */
+}
+
+
+
+/* shoes slider csss>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.slippersmain{
+  margin-top:-10px;
+  margin-bottom:100px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}
+.slippersContainer{
+  width:190px;
+  height:16em;
+  /* border:1px solid black */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.slippersContainer:hover{
+  border:1px solid whitesmoke
+}
+.slippersContainer img{
+  width:100%;
+  /* height:15em */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px */
+
+}
+
+.slippersContainer p{
+  margin-top: -3px;
+  padding-left: 4px;
+}
+.newflash p{
+  color:#393939;
+  text-align:center;
+  /* border:1px solid rgb(0, 0, 0); */
+  font-family: Text,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  font-size: 25px;
+  height:40px
+}
+.newflashmain{
+  margin-top:10px;
+  margin-bottom:100px;
+  /* border:1px solid blue */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}
+
+/* spring>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.Springcompo{
+  display:flex;
+  justify-content:space-around;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}
+.Springimg{
+width:644px;
+height:444px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+.Springimg img{
+  width:100%;
+  height:100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.Spring>p{
+  color:#393939;
+  text-align:center;
+  /* border:1px solid rgb(0, 0, 0); */
+  font-family: Text,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  font-size: 25px;
+  height:40px
+}
+.Spring{
+  margin-bottom: 150px;
+  /* border:1px solid teal */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* Jeans container>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.JeansContainer{
+  width:190px;
+  height:18em;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+  /* border:1px solid black */
+}
+.JeansContainer:hover{
+  border:1px solid whitesmoke
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+
+}
+
+.JeansContainer img{
+  width:100%;
+  height:14em;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}
+
+.JeansContainer p{
+  margin-top: -3px;
+  padding-left: 4px;
+}
+
+/* jeans nav */
+.navjean{
+  display:flex;
+  justify-content:center;
+  gap:50px;
+  /* border:1px solid red */
+}
+.jean{
+  width:100px;
+  height:100%;
+  color:#393939;
+  text-align:center;
+  
+  font-family: Text,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  font-size: 25px;
+  height:40px
+}
+.jean:hover{
+  border-bottom: 5px solid teal;
+  
+}
+
+/* springaccc>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.springacc{
+  margin-bottom:150px;
+  margin-top:120px;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px */
+
+}
+.springacc>p{
+  width:100%;
+  height:100%;
+  color:#393939;
+  text-align:center;
+  font-family: Text,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  font-size: 25px;
+  height:40px;
+  
+}
+.springaccdiv{
+  display:flex;
+}
+.springaccimg{
+  width:429px;
+  height:401px;
+  margin: auto;
+
+}
+.springaccimg img{
+  width:100%;
+  height:100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px
+
+}
+
+
+/* checoutcarousel */
+.Checkoutcarousel{
+  width:75px;
+  height:115px;
+  border-radius:5px
+}
+
+.Checkoutcarousel img{
+  width:100%;
+  height:100%;
+  border-radius:5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;}
+
+
+
+.lookContainer{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width:200px;
+  height:15em;
+}
+
+.lookContainer img{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width:100%;
+  height:100%;
+}
+
+.lookContainer:hover{
+  /* background-color:0.6px solid transparent; */
+  border:1px solid whitesmoke;
+}

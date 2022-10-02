@@ -1,0 +1,70 @@
+.descpagemaindiv{
+    display:flex;
+    justify-content:space-between;
+    /* border:1px solid black; */
+    margin-top:50px;
+    padding: 70px;
+}
+
+.descimagediv{
+    /* border:1px solid red; */
+    width: 40%;
+    height:auto
+}
+.descimagediv img{
+    width:70%;
+    height:80%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;}
+
+.descdetaildiv{
+    /* border:1px solid rgb(0, 0, 0); */
+    width: 50%;
+    height:auto
+}
+
+.selectTag{
+    width:400px;
+    height:44px;
+    margin-bottom: 13px;
+    border:2px solid whitesmoke;
+
+}
+.selectTag:hover{
+    border-bottom: 2.4px solid teal;
+}
+
+.Addbag{
+    width:400px;
+    height:40px;
+    background: #00819d;
+    border-color: #00819d;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+ 
+
+}
+
+
+.checkoutpop{
+    width:100px;
+    height:40px;
+    background: #00819d;
+    border-color: #00819d;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    border-radius:5px;
+    padding:9px;
+    cursor: pointer;
+    /* border:1px solid black */
+
+}
+
+.checkoutpop:hover{
+    color:teal;
+    transition:all ease 0.3sec;
+    background-color:white;
+    border:1px solid #00819d;
+}
+

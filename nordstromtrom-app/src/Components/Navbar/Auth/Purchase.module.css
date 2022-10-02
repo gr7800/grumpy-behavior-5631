@@ -1,0 +1,14 @@
+.div__1{
+   
+    height:95vh;
+    display:flex;
+    gap:20px;
+}
+
+.div__1>div:nth-child(2){
+    height:95vh;
+    width: 80%;
+    padding:50px;
+}
+
+

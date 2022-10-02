@@ -1,0 +1,180 @@
+.majordiv{
+    display: flex;
+    gap: 3%;
+ 
+    width: 77%;
+    margin:auto;
+    margin-top:50px;
+    /* border: 1px solid yellow; */
+}
+
+.left{
+/* margin: auto; */
+/* border: 1px solid red; */
+
+}
+
+.rigth{
+    /* border: 1px solid red; */
+    /* margin: auto; */
+}
+
+.checkdiv,.shipping,.gift,.contact,.nordstrom,.payment,.promotions,.review1{
+    /* border: 1px solid black; */
+    width: 550px;
+    /* height: 200px; */
+    margin: auto;
+    font-family: Text,Arial,sans-serif;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    padding: 4%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.nordstrom{
+    display: flex;
+}
+
+
+.flex{
+    display: flex;
+    gap:4%
+}
+
+.blue{
+    color:rgb(77, 133, 156);
+    font-size: 14px;
+    margin-top: 2%;
+}
+
+.size{
+    font-size: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+.image{
+    width:90px;
+    height: 100px;
+}
+.imgicon{
+    width: 50px;
+    margin-top: -20px;
+}
+.imgicons{
+    width:100px;
+}
+
+.flexs{
+    display: flex;
+    justify-content: space-between
+}
+.submit{
+ 
+    margin-left: 2%;
+    background-color: rgb(80, 136, 160);
+    color: white;
+    border: 1px solid  rgb(80, 136, 160);
+    height: 40px;
+    width: 100px;
+
+}
+
+.submit:hover{
+    background-color: white;
+    color: rgb(80, 136, 160);
+    
+    border: 1px solid  rgb(80, 136, 160);
+
+}
+.input{
+    width : 350px;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.inputcart{
+    height: 40px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+.imgsmall{
+    width: 50px;
+}
+.imgIcon{
+    width: 100px;
+    margin-left: 20%;
+    margin-bottom: 15%;
+}
+.credit{
+    width: 100px;
+    margin-left: 3%;
+}
+
+input[type=radio]{
+    height: 20px;
+    width: 40px;
+}
+input[type=checkbox]{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+
+.review2{
+    /* border: 1px solid black; */
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* height: 200px; */
+    margin-top: 0%;
+    font-family: Text,Arial,sans-serif;
+    box-sizing: border-box;
+    padding: 4%;
+
+}
+
+
+.review12{
+    /* border: 1px solid black; */
+    width: 400px;
+  
+    /* height: 200px; */
+    margin-top: 0%;
+    font-family: Text,Arial,sans-serif;
+    box-sizing: border-box;
+    padding: 4%;
+
+}
+
+.line{
+    border: 1px solid grey;
+    width: 360px;
+    margin-bottom: 10%;
+}
+
+
+.reviewButton{
+    background-color: rgb(80, 136, 160);
+    color: white;
+    width: 360px;
+    height: 50px;
+    border: 1px solid  rgb(80, 136, 160);
+}
+.reviewButton:hover{
+    background-color: white;
+    color: rgb(80, 136, 160);
+    
+    border: 1px solid  rgb(80, 136, 160);
+}
+
+.last{
+    font-size: 12px;
+}
+
+
+
+
+

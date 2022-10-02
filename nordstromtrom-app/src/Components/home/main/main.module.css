@@ -1,0 +1,10 @@
+.newflash p{
+    color:#393939;
+    text-align:center;
+    border:1px solid rgb(0, 0, 0);
+    font-family: Text,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 25px;
+    height:40px
+}
